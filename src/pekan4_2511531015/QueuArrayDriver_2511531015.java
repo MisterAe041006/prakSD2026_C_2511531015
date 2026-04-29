@@ -3,8 +3,20 @@ package pekan4_2511531015;
 public class QueuArrayDriver_2511531015 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		QueueArray_2511531015 queue = new QueueArray_2511531015(1000);
+		queue.enqueue(10);
+		queue.enqueue(20);
+		queue.enqueue(30);
+		queue.enqueue(40);
+		System.out.println("Item di depan " + queue.front_1015);
+		System.out.println("Item paling belakang " + queue.rear_1015());
+		System.out.println("tampilan queue");
+		queue.display();
+		System.out.println();
+		System.out.println(queue.dequeue() + "dihapus dari queue");
+		System.out.println("item di depan:" + queue.front_1015());
+		System.out.println("item di belakang: " + queue.rear_1015());
+		System.out.println("tampilan queue setelah satu data dihapus");
 	}
 
 }

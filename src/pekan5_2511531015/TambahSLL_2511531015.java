@@ -5,7 +5,6 @@ public static NodeSLL_2511531015 insertAtFront(NodeSLL_2511531015 head, int valu
 	NodeSLL_2511531015 new_node = new NodeSLL_2511531015(value);
 	new_node.next_1015 = head;
 	return new_node;
-	
 }
 //fungsi menambahkan node di akhir SLL
 public static NodeSLL_2511531015 insertAtEnd(NodeSLL_2511531015 head, int value) {
